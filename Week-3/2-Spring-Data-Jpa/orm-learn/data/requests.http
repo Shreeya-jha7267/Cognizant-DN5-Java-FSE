@@ -1,0 +1,18 @@
+### Add Country
+POST http://localhost:8080/countries
+Content-Type: application/json
+
+{
+  "code":"IN",
+  "name":"India"
+}
+
+###
+
+### Find Country
+GET http://localhost:8080/countries/IN
+
+###
+
+### Get All Countries
+GET http://localhost:8080/countriesst:8080/countries/IN
