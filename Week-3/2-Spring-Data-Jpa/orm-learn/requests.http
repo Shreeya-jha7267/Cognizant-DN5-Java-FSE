@@ -1,0 +1,29 @@
+### Add India
+POST http://localhost:8080/countries
+Content-Type: application/json
+
+{
+  "code":"IN",
+  "name":"India"
+}
+
+###
+
+### Add USA
+POST http://localhost:8080/countries
+Content-Type: application/json
+
+{
+  "code":"US",
+  "name":"United States"
+}
+
+###
+
+### Find by Name
+GET http://localhost:8080/countries/name/India
+
+###
+
+### Search by Keyword
+GET http://localhost:8080/countries/search/Ind#
